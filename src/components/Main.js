@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import sam from '../images/sam.jpg'
+import javabean from '../images/javabean.jpg'
 
 class Main extends React.Component {
   render() {
@@ -78,7 +80,8 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={sam} alt="" />
+            <img src={javabean} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
