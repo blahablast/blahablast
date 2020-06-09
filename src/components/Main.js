@@ -5,6 +5,9 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import sam from '../images/sam.jpg'
 import javabean from '../images/javabean.jpg'
+import javascript from '../images/javascript.jpg'
+import react from '../images/react.png'
+import node from '../images/node.png'
 
 class Main extends React.Component {
   render() {
@@ -31,9 +34,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
             ullam est aut doloremque reprehenderit unde!
@@ -51,7 +52,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={javascript} alt="" />
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
@@ -81,7 +82,6 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main">
             <img src={sam} alt="" />
-            <img src={javabean} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
