@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>blahablast</h1>
         <p>
-          full stack javascript developer based in cleveland, oh <br />{' '}
+          front end javascript developer based in cleveland, oh <br />
           specializing in fast and beautiful websites
         </p>
       </div>
