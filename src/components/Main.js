@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import sam from '../images/sam.jpg'
-import javascript from '../images/javascript.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,8 +28,20 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-            ullam est aut doloremque reprehenderit unde!
+            I am a lover of all things JavaScript. I do have preferences towards
+            the libraries and frameworks such as React and Gatsby but I also
+            love to code in vanilla JavaScript. With that being said, a goal of
+            mine is to bring more attention to Gatsby JS and Tailwind CSS. Super
+            fun and performant frameworks that are changing the game of front
+            end development. I like to be on top of the newest technologies and
+            I will forever be a student of development. While some form of
+            JavaScript can be used for most projects, I like to consider myself
+            language agnostic. Whatever tool is needed for the job can be
+            learned and used.
+          </p>
+          <p>
+            Below is an image gallery of some things that I love. Made with just
+            pure CSS, utilizing Flexbox.
           </p>
 
           {close}
@@ -45,9 +55,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={javascript} alt="" />
-          </span>
+          </span> */}
           <p>Here are a handful of projects I have been working on.</p>
           <button>
             <a
@@ -70,18 +80,40 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={sam} alt="" />
-          </span>
+          </span> */}
+          <span>Hello!</span>
+          <br />
+          <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            My Name is Sam Blaha, I'm and up and coming front end developer
+            living in the Cleveland, OH area.
           </p>
+          <p>
+            My passion is writing code and designing websites. For me it is 50%
+            left side of my brain and 50% right side. In essence, I get to tap
+            into my logical side and creative side cohesively. I have been in
+            the IT field for nearly a decade, working for two major corporations
+            in downtown Cleveland as a Windows System Administrator and in
+            desktop support. As much as I do love tech and the whole hardware
+            side of things, I found my real passion in software and creating it.
+            To me, development is the pinnacle of IT. I have studied numerous
+            programming languages and concepts over the years, building various
+            projects, but it wasn't until I honed in on JavaScript that my
+            passion was realized.
+          </p>
+          <p>
+            Here are some of the technologies I work with:
+            <ul>
+              <li>JavaScript (ES6)</li>
+              <li>React & Gatsby</li>
+              <li>HTML & CSS</li>
+              <li>Node.js</li>
+              <li>PHP & Wordpress</li>
+            </ul>
+          </p>
+          <p>Check out my "WORK" section for a handful of examples!</p>
           {close}
         </article>
 
