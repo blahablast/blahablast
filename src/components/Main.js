@@ -42,16 +42,15 @@ class Main extends React.Component {
           <p>
             Below, is a button leading you to the greatest images on the web, my
             amazing Pomsky Java! Made with just pure CSS, utilizing Flexbox.
-            <br />
-            <br />
-            <button>
-              <a
-                href="https://vigorous-davinci-18eb23.netlify.app/"
-                target="_blank"
-              ></a>
-              javabean
-            </button>
           </p>
+          <button>
+            <a
+              href="https://vigorous-davinci-18eb23.netlify.app/"
+              target="_blank"
+            >
+              Java the Pomsky
+            </a>
+          </button>
 
           {close}
         </article>
