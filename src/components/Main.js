@@ -40,8 +40,17 @@ class Main extends React.Component {
             learned and used.
           </p>
           <p>
-            Below is an image gallery of some things that I love. Made with just
-            pure CSS, utilizing Flexbox.
+            Below, is a button leading you to the greatest images on the web, my
+            amazing Pomsky Java! Made with just pure CSS, utilizing Flexbox.
+            <br />
+            <br />
+            <button>
+              <a
+                href="https://vigorous-davinci-18eb23.netlify.app/"
+                target="_blank"
+              ></a>
+              javabean
+            </button>
           </p>
 
           {close}
