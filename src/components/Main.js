@@ -30,11 +30,9 @@ class Main extends React.Component {
           <p>
             I am a lover of all things JavaScript. I do have preferences towards
             the libraries and frameworks such as React and Gatsby but I also
-            love to code in vanilla JavaScript. With that being said, a goal of
-            mine is to bring more attention to Gatsby JS and Tailwind CSS. Super
-            fun and performant frameworks that are changing the game of front
-            end development. I like to be on top of the newest technologies and
-            I will forever be a student of development. While some form of
+            love to code in vanilla JavaScript. I like to be on top of the
+            newest technologies and I will forever be a student of development,
+            always studying a new language or stack. While some form of
             JavaScript can be used for most projects, I like to consider myself
             language agnostic. Whatever tool is needed for the job can be
             learned and used.
@@ -66,16 +64,43 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={javascript} alt="" />
           </span> */}
-          <p>Here are a handful of projects I have been working on.</p>
-          <button>
-            <a
-              href="https://boring-lalande-10b07b.netlify.app/"
-              target="_blank"
-            >
-              Breakout
-            </a>
-          </button>
-          <div></div>
+          <p style={{ textAlign: 'center' }}>
+            These are just a few projects I have been working on.{' '}
+          </p>
+          <hr />
+
+          <p style={{ textAlign: 'center' }}>
+            This is a breakout game made in JavaScript, using the JavaScript
+            Canvas ( Only playable using a keyboard, does not work on a
+            touchscreen ).
+            <br />
+            <br />
+            <button>
+              <a
+                href="https://boring-lalande-10b07b.netlify.app/"
+                target="_blank"
+              >
+                Breakout
+              </a>
+            </button>
+          </p>
+
+          <p style={{ textAlign: 'center' }}>
+            This is a Contact Keeper app that allows a user to log in, create,
+            store, update and delete contacts, specific to the user logged in.
+            This is a Full Stack app, made with the MERN stack, hosted on
+            Heroku.
+            <br />
+            <br />
+            <button>
+              <a
+                href="https://desolate-waters-48976.herokuapp.com/login"
+                target="_blank"
+              >
+                Contact Keeper
+              </a>
+            </button>
+          </p>
 
           {close}
         </article>
@@ -95,7 +120,7 @@ class Main extends React.Component {
           <br />
           <br />
           <p>
-            My Name is Sam Blaha, I'm and up and coming front end developer
+            My Name is Sam Blaha, I'm and up and coming Full Stack developer
             living in the Cleveland, OH area.
           </p>
           <p>
