@@ -95,17 +95,6 @@
     }
   }
 
-  .card {
-    // background: #333;
-    border-radius: 2px;
-    display: inline-block;
-    height: 300px;
-    margin: 1rem;
-    position: relative;
-    width: 300px;
-    text-align: center;
-  }
-
   @include breakpoint(small) {
     article {
       @include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
