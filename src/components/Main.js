@@ -29,7 +29,7 @@ class Main extends React.Component {
 
           <p>
             I am a lover of all things JavaScript. I do have preferences towards
-            the libraries and frameworks such as React and Gatsby but I also
+            the libraries and frameworks such as React and Gatsby, but I also
             love to code in vanilla JavaScript. I like to be on top of the
             newest technologies and I will forever be a student of development,
             always studying a new language or stack. While some form of
@@ -139,17 +139,17 @@ class Main extends React.Component {
             living in the Cleveland, OH area.
           </p>
           <p>
-            My passion is writing code and designing websites. For me it is 50%
-            left side of my brain and 50% right side. In essence, I get to tap
-            into my logical side and creative side cohesively. I have been in
-            the IT field for nearly a decade, working for two major corporations
-            in downtown Cleveland as a Windows System Administrator and in
-            desktop support. As much as I do love tech and the whole hardware
-            side of things, I found my real passion in software and creating it.
-            To me, development is the pinnacle of IT. I have studied numerous
-            programming languages and concepts over the years, building various
-            projects, but it wasn't until I honed in on JavaScript that my
-            passion was realized.
+            My passion is writing code and designing websites. I look at it as
+            50% left side of my brain and 50% right side. In essence, I get to
+            tap into my logical side and creative side cohesively. I have been
+            in the IT field for nearly a decade, working for two major
+            corporations in downtown Cleveland as a Windows System Administrator
+            and in desktop support. As much as I do love tech and the whole
+            hardware side of things, I found my real passion in software and
+            creating it. To me, development is the pinnacle of IT. I have
+            studied numerous programming languages and concepts over the years,
+            building various projects, but it wasn't until I honed in on
+            JavaScript that my passion was realized.
           </p>
           <p>
             Here are some of the technologies I work with:
@@ -173,7 +173,16 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <p>
+            Feel free to contact me by email.
+            <br /> I am new to the development scene and currently looking for
+            work.
+          </p>
+          <button>
+            <a href="mailto:blahasam@gmail.com">blahasam@gmail.com</a>
+          </button>
+
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -196,33 +205,34 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            {/* <li>
+            <li>
               <a
                 href="https://twitter.com/HuntaroSan"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
-            </li> */}
-            {/* <li>
+            </li>
+
+            <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <a
                 href="https://github.com/codebushi/gatsby-starter-dimension"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
               </a>
-            </li> */}
-          </ul>
+            </li>
+          </ul> */}
           {close}
         </article>
       </div>
