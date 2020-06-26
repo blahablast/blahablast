@@ -101,6 +101,21 @@ class Main extends React.Component {
               </a>
             </button>
           </p>
+          <p style={{ textAlign: 'center' }}>
+            This is a fun typing game made from JavaScript. It has three
+            difficulty settings, each setting affecting the time gained for
+            typing the correct word differently. Simple, elegant and creative.
+            <br />
+            <br />
+            <button>
+              <a
+                href="https://dazzling-cori-c20fc3.netlify.app/"
+                target="_blank"
+              >
+                Typing Challenge
+              </a>
+            </button>
+          </p>
 
           {close}
         </article>
