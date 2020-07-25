@@ -28,15 +28,24 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
 
           <p>
-            I am a lover of all things JavaScript. I do have preferences towards
-            the libraries and frameworks such as React and Gatsby, but I also
-            love to code in vanilla JavaScript. I like to be on top of the
-            newest technologies and I will forever be a student of development,
-            always studying a new language or stack. While some form of
-            JavaScript can be used for most projects, I like to consider myself
-            language agnostic. Whatever tool is needed for the job can be
-            learned and used.
+            I love Software development, it's my passion in life. Whether it be
+            JavaScript, C#, Python or a library such as React, I will use
+            whatever tool is needed to get the job done. I'm a Full Stack
+            Developer but I do have a knack for the Front End and styling. I
+            love getting into some advanced Sass, creating unique and fun
+            designs.
           </p>
+          <div>
+            <p style={{ marginBottom: '1rem' }}>
+              Lately, I've branched out into even more types of development...
+            </p>
+            <ul style={{ paddingLeft: '2rem' }}>
+              <li>React Native - Mobile Development</li>
+              <li>C# - Desktop Applications</li>
+              <li>C# with Unity - Game Development</li>
+              <li>Electron - Desktop Applications with JavaScript</li>
+            </ul>
+          </div>
           <p>
             Below, is a button leading you to the greatest images on the web, my
             amazing Pomsky Java! Made with just pure CSS, utilizing Flexbox.
@@ -131,36 +140,33 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img src={sam} alt="" />
           </span> */}
-          <span>Hello!</span>
-          <br />
-          <br />
+
           <p>
-            My Name is Sam Blaha, I'm and up and coming Full Stack developer
-            living in the Cleveland, OH area.
+            Software Development became a passion for me in 2015, while working
+            full time in Enterprise IT. I have been in the IT field for nearly a
+            decade, working for two major corporations, in Enterprise IT, as a
+            Windows Systems Administrator and in Desktop Support. As much as I
+            do love tech and the whole hardware side of things, I found my real
+            passion in software and creating it. To me, development is the
+            pinnacle of IT. I look at it as 50% left side of my brain and 50%
+            right side. In essence, I get to tap into my logical side and
+            creative side cohesively. I have studied numerous programming
+            languages and concepts over the years, building various projects,
+            but it wasn't until I honed in on JavaScript that my passion was
+            realized.
           </p>
           <p>
-            My passion is writing code and designing websites. I look at it as
-            50% left side of my brain and 50% right side. In essence, I get to
-            tap into my logical side and creative side cohesively. I have been
-            in the IT field for nearly a decade, working for two major
-            corporations in downtown Cleveland as a Windows System Administrator
-            and in desktop support. As much as I do love tech and the whole
-            hardware side of things, I found my real passion in software and
-            creating it. To me, development is the pinnacle of IT. I have
-            studied numerous programming languages and concepts over the years,
-            building various projects, but it wasn't until I honed in on
-            JavaScript that my passion was realized.
+            I started with learning web development, but quickly realized my
+            potential for more and began learning different forms of software
+            development. It is a constant learning process and I wouldn't want
+            it any other way. I am self taught and very proud of that, although
+            I'm considering joining a coding bootcamp. Since being laid off due
+            to Covid-19, I have time to do some formal training training and
+            hopefully learn some new concepts I don't currently possess. I will
+            forever be a student of development and constantly learning new
+            concepts.
           </p>
-          <p>
-            Here are some of the technologies I work with:
-            <ul>
-              <li>JavaScript (ES6)</li>
-              <li>React & Gatsby</li>
-              <li>HTML & CSS</li>
-              <li>Node.js</li>
-              <li>PHP & Wordpress</li>
-            </ul>
-          </p>
+
           <p>Check out my "WORK" section for a handful of examples!</p>
           {close}
         </article>
